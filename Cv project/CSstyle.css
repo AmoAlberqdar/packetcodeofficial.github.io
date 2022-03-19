@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #426696;
+  font-weight: 600;
+  font-size: 3rem;
+  opacity: 0.8;
+}
+h2,
+p {
+  color: #658ec6;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+h3 {
+  color: #426696;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+ul
+{
+	color:#658ec6;
+}
+
+main {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  background-image: url(cs.jpg);
+  background-position:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glass {
+  background: white;
+  min-height: 80vh;
+  width: 90%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
+  z-index: 2;
+  backdrop-filter: blur(0.5rem);
+  display: flex;
+    align-items: center;
+  justify-content: center;
+}
+
+.status {
+  margin-bottom: 3rem;
+  text-align:center;
+}
+
+.status input {
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border: none;
+  width: 50%;
+  padding: 0.5rem;
+  border-radius: 2rem;
+  
+  
+}
+
+.cs {
+  margin: 5rem;
+  width:80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+
+.card {
+  display: flex;
+  background: linear-gradient(
+    to left top,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.5)
+  );
+  border-radius: 1rem;
+  margin: 2rem 0rem;
+  padding: 2rem;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+  justify-content: space-between;
+  flex-direction: column;
+  
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+

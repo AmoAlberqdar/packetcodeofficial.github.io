@@ -1,0 +1,65 @@
+<!DOCTYOE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="Movies" content="My Favorite Movies ">
+<title>Movies</title>
+
+<link rel="stylesheet" href="MStyle.css">
+<style type="text/css">
+a{text-decoration:none;}
+.formlink{font-size:18pt;margin-top:1px;}
+.formlink:hover{font-size:32pt;}
+img:hover
+{
+position:relative; bottom:60px;
+}
+</style>
+</head>
+<body>
+<p style = "margin:60px;">My Favorite Movies</p>
+<p class = "formlink"><a href = "#form1">Tell me about yours</a></p>
+<div class = "main">
+<div class = "block">
+<a href="https://www3.musichq.net/movie/interstellar-19788">
+         <img alt="Interstellarposter" src="interstaller.jpg">
+      </a>
+<h1>Interstellar</h1>
+<h2>When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.</h2>
+</div>
+<div class = "block">
+<a href="https://www3.musichq.net/movie/1917-41773">
+         <img alt="1917 poster" src="1917.jpg">
+      </a>
+<h1>1917</h1>
+<h2>Two soldiers, assigned the task of delivering a critical message to another battalion, risk their lives for the job in order to prevent them from stepping right into a deadly ambush.</h2>
+</div>
+<div class = "block">
+<a href="https://www3.musichq.net/movie/the-dark-knight-19752">
+         <img alt="The Dark Knight poster" src="The Dark Knight.jpg">
+      </a>
+<h1>The Dark Knight</h1>
+<h2>After Gordon, Dent and Batman begin an assault on Gotham's organised crime, the mobs hire the Joker, a psychopathic criminal mastermind who offers to kill Batman and bring the city to its knees.</h2>
+</div>
+</div>
+<p id = "form1">Write about one of you favorite movies</p>
+<div class ="form">
+<form method = "post">
+<label>Your favorite movie:
+<input name ="movie" type="text">
+</label>
+<br>
+<label>Discription:
+<textarea name = "comment" placeholder = "write here ..."
+rows = "6" cols = "36">
+</textarea>
+</label>
+<br>
+<label>
+<input type = "submit">
+</label>
+</form>
+</div>
+</body>
+</html>
+

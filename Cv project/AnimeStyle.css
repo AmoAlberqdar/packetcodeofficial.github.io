@@ -1,0 +1,72 @@
+
+img
+ {
+	 width:100%;
+	 height:320px;
+	 align-items: center;
+	justify-content: center;
+	border-radius:20px;
+ }
+ h1
+ {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-align:center;
+	font-size:50px;
+	margin:1px;
+	border-bottom: 1px solid black;
+	color:royalblue;
+	
+
+ }
+ h2
+ {
+	 font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	 font-size:20px;
+	 margin:7px;
+	 text-align:center;
+	
+ }
+ 
+body
+{
+  background-image: url(Anime.png);
+  background-position:center;
+  background-size:auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+
+.main
+{
+
+	display: flex;
+    flex-direction:rows;
+	align-items:normal;
+	border-radius:30px;
+
+}
+.block
+{
+	position: relative;
+    width: 80%;
+	height:80%px;
+    background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3));
+	backdrop-filter: blur(1.0px);
+	border-radius : 20px;
+	margin:10px;
+	padding:70px;
+	box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+	display:flex;
+	flex-direction: column;
+	align-items:normal;
+	margin:25px;
+}
+
+
