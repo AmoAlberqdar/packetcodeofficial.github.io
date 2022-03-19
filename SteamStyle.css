@@ -1,0 +1,102 @@
+
+ {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   
+}
+h1
+{
+	font-family: Tahoma, Geneva, sans-serif;
+	color:#f4f4f4;
+	font-weight:thin;
+}
+p
+{
+	color:#898989;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:12px;
+}
+h3
+{
+	color:#898989;
+}
+body
+{
+  background-image: url(steambackground.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.block
+{
+	position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #171717;
+	margin:50px;
+	box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+	display:flex;
+	flex-direction: column;
+	align-items:center;
+	border-radius:30px;
+
+}
+
+.block .profile
+{
+	display: flex;
+	justify-content: center;
+	position:relative;
+	padding:40px;
+	
+	
+}
+.block .games
+{
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: normal;
+	position:relative;
+	padding:40px;
+	width:85%;
+	height:520px;
+	border-radius:30px;
+	box-shadow:0 0 2px green;
+}
+
+
+.games img
+{
+	height:100px;
+	width:250px;
+}
+.games h1
+{
+	color:#f4f4f4;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 15px;
+	
+}
+.games .csgo
+{  
+	display: flex;
+	flex-direction: rows;
+	
+}
+
+.games .rl
+{  
+	display: flex;
+	flex-direction: rows;
+	
+}
+.games .valo
+{
+	display: flex;
+	flex-direction: rows;
+}

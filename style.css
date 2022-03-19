@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+body
+{
+width:1000px;
+height:100px;
+max-height:1000;
+overflow: auto;
+}
+
+.right_side{
+	position:relative;
+	left:800px;
+	bottom:607px;
+	
+}
+.name{font-size:30px;font-family: Gill Sans;
+   position: absolute;
+   left: 140px;
+   top: 10;}
+   
+   .profilepic {
+    width: 120px;
+    clip-path: circle();
+}
+   .details{font-size:22px;font-family: Gill Sans;color:gray}
+   .time_location{font-style: italic;font-size:12pt;font-family: Gill Sans;color:gray}
+   .contactcon{background-color:#f1f1f1;height:35px;width:100%;position:absolute;top:160px;}
+   .italicp{font-style: italic;font-size:12pt;color:#6b214b;}
+   
+ h1{color:#6b214b;font-family: Anton;}  
+ h2{font-family: 'Lora', serif;}
+ ul{font-size:16px;font-family: 'Lora', serif; font-weight:bold;}
+
+nav {color: white;text-align:center;border:solid gray;
+     width:150px;}
+	 nav ul {display :none; list-style:none; margin:0; padding:0;}
+	 nav:hover ul    { display: block; }
+	  nav ul li       {font-family: Gill Sans; border-top: solid gray; background-color:white; width:150px; color:gray;
+                        font-weight:bold;font-size:16pt;}
+	nav ul li:hover { background-color: #6b214b; }
+         a               { text-decoration: none; color:black;}
+		 
+		 .linkhover:hover{font-size:24pt;}
